@@ -124,3 +124,11 @@ section {
     border-radius: 100px;
     max-width: 100%;
 }
+.hero {
+    background-image: 'img/hero.jpg';
+    background-size: cover;
+    height: 400px;
+    background-position-x: center;
+    background-position-y: center;
+    text-transform: uppercase;
+}
