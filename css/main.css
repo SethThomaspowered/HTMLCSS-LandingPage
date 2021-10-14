@@ -125,10 +125,9 @@ section {
     max-width: 100%;
 }
 .hero {
-    background-image: 'img/hero.jpg';
+    background-image: url('../img/hero.jpg');
     background-size: cover;
     height: 400px;
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
     text-transform: uppercase;
 }
