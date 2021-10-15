@@ -203,7 +203,10 @@ section {
     content: "";
     position:absolute;
     border: 1px solid #fff;
-    border: 30px 30px 50px 50px;
+    top: 30px;
+    bottom:  30px;
+    left:  50px;
+    right:  50px;
     z-index: 1;
 }
 .full-banner-image {
@@ -227,7 +230,7 @@ section {
     color: #637f94;
     line-height: 1;
 }
-.full-banner-sidebar h4 :after {
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 1px;
